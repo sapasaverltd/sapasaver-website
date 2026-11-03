@@ -96,3 +96,24 @@ nav{position:relative}
 }
 html{scroll-padding-top:72px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+/* why section */
+.why{background:var(--mint)}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:#fff;border-radius:16px;padding:26px;border-left:6px solid var(--gold)}
+.card h3{font-size:22px;margin-bottom:8px}
+.card p{color:var(--muted)}
+@media(max-width:700px){.cards{grid-template-columns:1fr}}
+
+
+/* sign-up form */
+.narrow{max-width:620px}
+.signup .lead{margin-bottom:28px}
+.field{margin-bottom:16px}
+.field label{display:block;font-weight:700;margin-bottom:6px}
+.field input,.field select{width:100%;padding:13px 14px;border:2px solid var(--line);border-radius:10px;font:inherit;background:#fff;color:var(--ink)}
+.field input:focus,.field select:focus{border-color:var(--leaf);outline:none}
+button.btn{font-family:inherit;font-size:16px;cursor:pointer}
+.note{font-size:14px;color:var(--muted);margin-top:14px}
+.hp{position:absolute;left:-9999px}

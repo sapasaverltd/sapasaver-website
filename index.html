@@ -100,7 +100,60 @@
   </div>
 </section>
 
+<section class="signup" id="signup">
+  <div class="wrap narrow">
+    <h2>Be first to know</h2>
+    <p class="lead">Tell us where you are and we will message you when Sapa Saver reaches your area.</p>
+    <form name="waitlist" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="waitlist">
+      <p class="hp"><label>Leave this empty: <input name="bot-field"></label></p>
+      <div class="field">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+      </div>
+      <div class="field">
+        <label for="postcode">Postcode</label>
+        <input id="postcode" name="postcode" type="text" autocomplete="postal-code">
+      </div>
+      <div class="field">
+        <label for="role">I am a</label>
+        <select id="role" name="role">
+          <option>Customer</option>
+          <option>Shop owner</option>
+          <option>Rider</option>
+        </select>
+      </div>
+      <button class="btn dark" type="submit">Notify me</button>
+      <p class="note">We will only use your email to tell you about the launch. See our <a href="#">privacy policy</a>.</p>
+    </form>
+  </div>
+</section>
+
 <section class="join">
+  <section class="why" id="why">
+  <div class="wrap">
+    <h2>Why Sapa Saver</h2>
+    <p class="lead">Simple for customers, fair for shops and riders.</p>
+    <div class="cards">
+      <article class="card">
+        <h3>Follow it live</h3>
+        <p>Watch your rider on the map from the moment they pick up your order, and chat if you need to.</p>
+      </article>
+      <article class="card">
+        <h3>Support local shops</h3>
+        <p>Your money goes to shops in your own neighbourhood, and they get paid securely.</p>
+      </article>
+      <article class="card">
+        <h3>Riders keep their tips</h3>
+        <p>Every tip goes straight to the rider, so good service is rewarded.</p>
+      </article>
+      <article class="card">
+        <h3>Earn as you order</h3>
+        <p>Collect points on every order and spend them on your next one.</p>
+      </article>
+    </div>
+  </div>
+</section>
   <div class="wrap">
     <h2>Ready when you are</h2>
     <p>Get the app and order from your local shops.</p>
