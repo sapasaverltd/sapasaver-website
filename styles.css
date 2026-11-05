@@ -24,7 +24,7 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0
 .links a{text-decoration:none;color:#fff}
 .btn{display:inline-block;padding:13px 24px;border-radius:10px;font-weight:700;text-decoration:none;font-size:16px;border:2px solid var(--gold);background:var(--gold);color:var(--ink)}
 .btn.line{background:transparent;color:#fff;border-color:rgba(255,255,255,.55)}
-.hero h1{color:#fff;font-size:clamp(40px,7vw,74px);max-width:15ch;margin:44px auto 20px}
+.hero h1{color:#fff;font-size:clamp(46px,9vw,92px);max-width:11ch;margin:44px auto 20px}
 .sub{color:#CFE5DA;font-size:19px;max-width:42ch;margin:0 auto 28px}
 .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 .soon{font-size:14px;color:#A9CBBB;margin:8px 0 44px}
