@@ -99,7 +99,10 @@ html{scroll-padding-top:72px}
 
 
 /* why section */
-.why{background:var(--mint)}
+.why{background:var(--forest);text-align:left}
+.why h2{color:#fff}
+.why .lead{color:#CFE5DA;max-width:52ch;margin:0 0 40px}
+.why .card{text-align:left}
 .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .card{background:#fff;border-radius:16px;padding:26px;border-left:6px solid var(--gold)}
 .card h3{font-size:22px;margin-bottom:8px}
